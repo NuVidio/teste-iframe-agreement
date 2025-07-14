@@ -15,8 +15,7 @@ type Event = {
 function App() {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const [event, setEvent] = useState<Event[]>([]);
-  const iframeSrc: string =
-    "http://localhost:5000/luana/invite/26cf5005-49e9-494c-947b-68e3ba85e977";
+  const iframeSrc: string = "https://nuvidio.me/jgymnx";
 
   useEffect(() => {
     const handleMessage = (event: MessageEvent): void => {
